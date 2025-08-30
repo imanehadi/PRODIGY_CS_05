@@ -16,14 +16,18 @@ Clonez le dépôt et exécutez avec Python 3 :
 git clone https://github.com/ton_nom/network-packet-analyzer.git
 cd network-packet-analyzer
 sudo python3 sniffer.py
-Tests
+
+## Tests
+
 
 Pour tester le sniffer, exécutez ces commandes dans un autre terminal :
+```bash
 ping 8.8.8.8 -c 4
 dig google.com
 curl http://example.com
 
-Exemple de sortie
+## Exemple de sortie
+```bash
 [+] New Packet: ICMP
 Source: 192.168.1.10 -> Destination: 8.8.8.8
 Payload: ...
